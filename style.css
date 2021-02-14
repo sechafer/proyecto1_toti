@@ -65,6 +65,22 @@ header{
     justify-items: center;
 
 }
+ .top {
+ 
+        top: 0;
+        position: fixed;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: rgb(26, 24, 24);
+        box-shadow: 0px 3px 4px rgba(10, 8, 8, 0.3);
+    }
+
+
+
+ }
 
 .Menu-nav{
     display: flex;
@@ -107,7 +123,7 @@ header nav a{
 }
 
 header nav a:hover{
-    text-decoration: yellow overline;
+    text-decoration: red underline;
     line-height: 20px;
     padding-top: 2vw;
     font-size: 2.5vw;    
@@ -117,15 +133,17 @@ header nav a:hover{
     width: 24vw;
     border-radius: 50%;
     
+    
 }
 
-.Logo1{
+.Logo1 img{
     display: flex;
     position: absolute;
-    top: 3.5vw;
+    top: 0.5vw;
     left: 9vw;
-    width: 15vw;
-    height: 15vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
 }
 
 .Linked-in{
@@ -138,7 +156,7 @@ header nav a:hover{
 }
 
 .Linked-in>img:hover, .Git-hub>img:hover, .Stack-overflow>img:hover{
-    border-right: 6px solid yellow;
+    border-right: 8px solid red;
     padding-right: 20px;
 }
 
@@ -177,7 +195,8 @@ header nav a:hover{
 .Imagem-Bio img{
     width: 50vw;
     align-self: center;
-    justify-self: center;    
+    justify-self: center; 
+    border-radius: 50%;   
 }
 .Texto-Bio p:first-child{
     font-size: 7vw;
@@ -250,15 +269,19 @@ header nav a:hover{
 .Logo-universidade1{
     width: 9vw;
     position: relative;
-    left: -10vw;
+    left: -20vw;
 }
 
 .Logo-universidade2{
-    width: 12vw;
+    width: 9vw;
     position: relative;
     left: -16vw;
 }
 
+#logucv1 #logucv2 img{
+border-radius: 50%;
+
+}
 #Experiência{
     background-color: #434343;
     color: #999999;
@@ -284,6 +307,10 @@ header nav a:hover{
 }
 
 .Logo_cantv{
+    width: 7vw;
+    height: 7vw;
+}
+.Logo_latinon{
     width: 7vw;
     height: 7vw;
 }
@@ -525,6 +552,7 @@ footer div:first-child{
 footer div img{
     width: 5vw;
     height: 5vw;
+    border-radius: 50%;
 }
 
 
@@ -662,7 +690,9 @@ footer div img{
     .Imagem-Bio img{
         width: 80vw;
         align-self: center;
-        justify-self: center;    
+        justify-self: center; 
+        border-radius: 50%;
+          
     }
     .Texto-Bio p:first-child{
         font-size: 7vw;
@@ -731,10 +761,11 @@ footer div img{
         font-weight: bold;
     }
     
-    .Logo-universidade1{
-        width: 12vw;
+    .Logo-universidade1 img{
+        width: 16vw;
         position: relative;
-        left: -5vw;
+        left: -14vw;
+        border-radius: 50%;
     }
     
     .Logo-universidade2{
@@ -769,6 +800,11 @@ footer div img{
     }
     
     .Logo_cantv{
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .Logo_latinon{
         width: 12vw;
         height: 12vw;
     }

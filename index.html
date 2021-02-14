@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es-VE">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-DiegoCelisT</title>
+    <title>Portfolio-Sechafer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/fav.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/font-CCsymbols.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Heebo&display=swap" rel="stylesheet">
@@ -14,16 +15,18 @@
 
 <body>
     <header>
-        <div class="Logo1">
-            <img src="img/logo_eletrica_ucv.jpg" alt="Logo EIE">
-        </div>
-        <nav class="Menu-nav">
-            <a href="#Bio">BIO</a>
-            <a href="#Formação">FORMAÇÃO</a>
-            <a href="#Experiência">EXPERIÊNCIA</a>
-            <a href="#Projetos">PROJETOS</a>
-            <a href="#Meu_contacto">CONTATO</a>
-        </nav>
+        <div class="top">
+            <div class="Logo1">
+                <img src="img/logo_sechafer.png" alt="Logo sechafer">
+            </div>
+            <nav class="Menu-nav">
+                <a href="#Bio">Inicio</a>
+                <a href="#Formação">Formación</a>
+                <a href="#Experiência">Experiencia</a>
+                <a href="#Projetos">Proyectos</a>
+                <a href="#Meu_contacto">Contacto</a>
+            </nav>
+        </div> 
         <div  class="My_name">
         <p>
             SAMUEL ELI CHACON FERNANDEZ
@@ -33,7 +36,7 @@
         </p>
         </div>
         <div class="Foto-header">
-            <img src="img/foto_portada.jpg" alt="Una Foto de la estacion espacialinternacional con un eslogan deSpace Force">
+            <img src="img/samuel.jpg" alt="Foto tipo carnet">
         </div>
     </header>
     <div>
@@ -63,11 +66,11 @@
         </section>
         <section id="Formação">
             <h2>
-                Formação
+                Formacion
             </h2>
             
                 <div>
-                    <img class="Logo-universidade1" src="img/logo_ucv.jpeg" alt="Logo UCV">
+                    <img class="Logo-universidade1" id="logucv1" src="img/logo_ucv.jpeg" alt="Logo UCV">
                     <div class="Texto-Formação"> 
                         <p>
                             2008 - 2016
@@ -81,7 +84,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="Logo-universidade2" src="img/logo_ucv.jpeg" alt="Logo UCV">
+                    <img class="Logo-universidade2" id="logucv2" src="img/logo_ucv.jpeg" alt="Logo UCV">
                     <div class="Texto-Formação">
                         <p>
                         2017 - 2029
@@ -99,7 +102,7 @@
 
         <section id="Experiência">
             <h2>
-                Experiência
+                Experiencia
             </h2>
             <div>
                 <div>
@@ -109,7 +112,7 @@
                             Marzo 2020 -Actulidad
                         </p>
                         <p>
-                            Soporte tecnico para dell Tecnology
+                            Soporte tecnico para Dell Tecnology
                         </p>
                         <p>
                             Tercerizado Sitel Brasil
@@ -123,27 +126,41 @@
                             Jul 2012 – 2020
                         </p>    
                         <p>
-                        Coordinador de comunciaciones unificadas
+                        Coordinador de comuncaciones unificadas
                         </p>
                         <p>
-                        Gerencia media de Cantv
+                            Dirigir , coordinar y supervisar: la comunicación con las entidades públicas o privadas, ya sean ministeriales o de otras instituciones que lo soliciten. Utilizando sistemas de videoconferencia del cliente y/o la empresa Cantv para este propósito, supervisar la operación de los sistemas de videoconferencia de la estatal Cantv, así como del personal que los operan y estan bajo la coordinación.
                         </p>                
                     </div>
                 </div>
-          
+                <div>
+                    <img class="Logo_latinon" src="img/logo_latinon_sombra.png" alt= "Logo latinon ">
+                    <div class="Texto-Experiência">
+                        <p>
+                            sep 2017 – 2019
+                        </p>    
+                        <p>
+                        Senior Performance Engineer
+                        </p>
+                        <p>
+                            Desarrollo e implementación de proyecto de videoconferencia basado en webrtc.
+                            Coordinar la configuración Amazon AWS en focando en servicios como EC2, S3 y ClaudFront para optimizar costos.
+                        </p>                
+                    </div>
+                </div>
         </div>
         </section>
 
         <section id="Projetos">
-            <h2>Projetos recentes como desenvolvedor web</h2>
+            <h2>Projetos como desenvolvedor</h2>
             <div>
                 <div class="Cartão-Projeto">
                     <img>
-                    <h3>Proyecto melodiconline</h3>
+                    <h3>Proyecto Melodiconline</h3>
                     <h4>Escuela de musica online</h4>
                     <img src="img/melodiconline.png" alt="Logo Proyecto melodic"> 
                     <p>
-                     Encargado de montar los servidores de videoconferencia basado en webrtc.     
+                     Encargado de configurar y administar los servidores de videoconferencia basado en webrtc en AWS de Amazon.     
                     </p>
                     <nav>
                     <a href="https://www.melodiconline.com/" target="_blank" valor="noopener">Pagina web</a>
@@ -152,95 +169,63 @@
                 </div>
                 <div class="Cartão-Projeto">
                     <img>
-                    <h3>Poção mágica</h3>
-                    <h4>(Prática de CSS)</h4>
-                    <img src="Images/Práticas de CSS - Página de Receita.JPG" alt="Print da página da poção mágica"> 
+                    <h3>Receta de Torta Tres Leches</h3>
+                    <h4>Practica de Html</h4>
+                    <img src="img/receta_1.jpg" alt="Print de pagina de receta"> 
                     <p>
-                        Conceitos iniciais de CSS. Dando estilo por primeira vez a uma página. 
+                        Usando conceptos de eitquetado en Html. 
                     </p>
                     <nav>
-                        <a href="https://github.com/DiegoCelisT/Exercicio1_CSS" target="_blank" valor="noopener">REPOSITÓRIO</a>
-                        <a href="https://diegocelist.github.io/Exercicio1_CSS/" target="_blank" valor="noopener">VER DEMO</a>
+                        <a href="https://github.com/sechafer/html_202102020/" target="_blank" valor="noopener">REPOSITÓRIO</a>
+                        <a href="https://sechafer.github.io/html_202102020/sechafer.html" target="_blank" valor="noopener">VER DEMO</a>
                         </nav>
                 </div>
                 <div class="Cartão-Projeto">
                 <img>
-                <h3>Atualidades do United</h3>
-                <h4>(Prática de HTML)</h4>
-                <img src="Images/Práticas de HTML - Página do United.JPG" alt="Print da Página do United no host do GitHub"> 
+                <h3>Practica sobre CSS3</h3>
+                <h4>Uso de GRID y menu flotante</h4>
+                <img src="IMG/PRACTICA_CSS3.jpg" alt="Print  de practica sobre css"> 
                 <p>
-                    Notícias, vídeos e informações sobre a situação atual do Manchester United. Práticamos agrupamentos e semântica. É uma seção de um projeto grupal.       
+                   Es una muestra de distribucion de contenido en Grid usando menu flotante con botones       
                 </p>
                 <nav>
-                    <a href="https://github.com/toti-br/html_202102020" target="_blank" valor="noopener">REPOSITÓRIO</a>
-                    <a href="https://diegocelist.github.io/html_202102020/DiegoCelisT.html" target="_blank" valor="noopener">VER DEMO</a>
+                    <a href="https://github.com/sechafer/aula6_video_exercicio2" target="_blank" valor="noopener">REPOSITÓRIO</a>
+                    <a href="https://sechafer.github.io/aula6_video_exercicio2/index.html" target="_blank" valor="noopener">VER DEMO</a>
                     </nav>
             </div>
-            <div class="Cartão-Projeto">
-                <img>
-                <h3>Página de Viagens</h3>
-                <h4>(Prática de HTML)</h4>
-                <img src="Images/Práticas de HTML - Página de Viagens.JPG" alt="Print da página de viagens no host do GitHub"> 
-                <p>
-                 Em esta página simulei um blog de um fotógrafo que viaja pelo mundo contando e as suas experiências. Aqui práticamos conceitos básicos de HTML sem estilização pelo momento. 
-                </p>
-                <nav>
-                    <a href="https://github.com/DiegoCelisT/Exercicio_02_HTML" target="_blank" valor="noopener">REPOSITÓRIO</a>
-                    <a href="https://diegocelist.github.io/Exercicio_02_HTML/" target="_blank" valor="noopener">VER DEMO</a>
-                    </nav>
-            </div>
-            <div class="Cartão-Projeto">
-                <img>
-                <h3>Poção mágica</h3>
-                <h4>(Prática de HTML)</h4>
-                <img src="Images/Práticas de HTML - Página de Receita.JPG" alt="Print da página da poção mágica"> 
-                <p>
-                 Essa foi a primeira página que eu fiz, usando os primeiros conceitos de HTML. Simulei a folha virtual do grimório de um mago, contendo uma receita engraçada de uma poção que inventei. Porque o aprendizado também pode ser divertido!   
-                </p>
-                <nav>
-                    <a href="https://github.com/DiegoCelisT/Exercicio_1-HTML" target="_blank" valor="noopener">REPOSITÓRIO</a>
-                    <a href="https://diegocelist.github.io/Exercicio_1-HTML/" target="_blank" valor="noopener">VER DEMO</a>
-                    </nav>
-            </div>
+                        
             </div>
         </section>
         <section id="Projetos">
-            <h2 class="Projetos-Antigos">Projetos Antigos (Como Engenheiro)</h2>
+            <h2 class="Projetos-Antigos">Colaboraciones eb proyectos sin fines de lucro</h2>
             <div>
                 <div class="Cartão-Projeto">
-                <h3>Robô com a campacidade de superar obstaculos</h3>
-                <video src="Images/El Chocante en pruebas.mp4" alt="Video do robô fazendo um teste onde sobe escadas" controls loop muted></video>
-                <p>Projeto desenvolvido na época universitária com um grupo de amigos, todos curiosos da robótica.</p>
-                <p >Passamos por um processo de design mecânico, eletrónico e informático com varias camadas de retroalimentação, usando SolidWorks e Arduino, o resultado foi um veículo com a capacidade de seguir linhas coloridas e superar obstáculos com superfícies irregulares, como rampas, blocos, escadas e vãos. Uma coisa curiosa do nosso robô era que quando ele identificava uma superficie muito alta para descer, ele se virava, se posicionava de costas para o obstáculo e descia de ré, com  segurança. Ele também tinha uma tração adaptativa ao terreno</p>
+                <h3>Proyecto aula canaimita</h3>
+                <video src="img/aulacanaimita.mp4" alt="video sobre prueba piloto de aula cainimita" controls loop muted></video>
+                <p>Proyecto participante de Cantv Innova 2016 y ganador del mismo concurso</p>
+                <p >Este proyecto se encargaria de usar los pc de dados por el gobierno de venezuela a los niños en video conferencia basadas en H323</p>
                 </div>
                 <div class="Cartão-Projeto">
-                <h3>Publicação em revista de uma de minhas pesquisas</h3>
-                <img src="Images/Portada revista de cardiologia.JPG" alt="Capa da revista onde foi publicado meu trabalho como pesquisador">
+                <h3>Iot colaboracion para Isoc-Venezuela</h3>
+                <video src="img/isocvenezuela.mp4" alt="video sobre Iot chapperton" controls loop muted></video>
                 <p>
-                    Parte do meu trabalho desenvolvido durante meu tempo como pesquisador foi recentemente publicado na revista <em>Arquivos Brasileiros de Cardiologia</em>, aparecendo ainda como capa do Volume 115 número 4, em outubro de 2020, e sendo o autor principal. 
+                    Este proeycto fue una colaboracion para Isoc Capitulo Venezuela donde se relizaron  demos sobre uso de Iot en el hogar y autmatizacion, este proyecto fue seleccionado para un concurso de participacion mundial en el concuso Chapperton dentro de ISOC.
                 </p>
-                <p>    
-                    Nesse trabalho estudei a importância da posição coaxial no <em>Implante Valvar Aórtico Percutâneo</em>, fazendo um grande avanço na área, e conseguindo remarcar diversas variáveis, para que os médicos considerem esse parâmetro no momento da implementação desse tipo de cirurgias. 
-                </p>
-                <p>
-                    Em essa pesquisa eu fiz parte de um grupo multidisciplinar formado por médicos e engenheiros, usando ferramentas de CFD como Ansys Fluent e Mixer Module.
-                </p>
+               
                 <nav>
-                    <a href="https://www.scielo.br/pdf/abc/2020nahead/en_0066-782X-abc-20190385.pdf?fbclid=IwAR3oFbcC3i24DHRfTCxd0b_-uRImMyCZjlelqa-9kOBTePlNCzZpMTzVMwY" target="_blank" rel="noopener">ARTIGO</a>
-                    <a href="http://abccardiol.org/wp-content/uploads/2020/10/Revista_ABC_portugues_outubro_11504-1.x64000.pdf" target="_blank" rel="noopener">REVISTA</a>
+                    <a href="https://www.internetsociety.org/grants/chapterthon/2018/" target="_blank" rel="noopener">Articulo</a>
                 </nav>
                 </div>
                 <div class="Cartão-Projeto">
-                <h3>Sistema de fertirrigação e bombeamento de água com uma turbina eólica</h3>
-                <img src="Images/Aerobomba1.JPG" alt="Fotografia de aerobomba construida no vivero La Fuente na Colômbia">
+                <h3>	Modernización de las instalaciones eléctricas de las bombas de agua de condensación de las plantas de refrigeración # 1 y 3 del Metro de Caracas</h3>
+                <iframe width="240" height="180" src="https://www.youtube.com/embed/BL9kivOjMKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               
                 <p>
-                    Em uma fazenda havia a necessidade de trazer água de um lago para 300 árvores frutíferas. Com minha equipe desenvolvimos un sistema integral para resolver esse problema.
+                    Modernización de las instalaciones eléctricas de las bombas de agua de condensación de las plantas de refrigeración # 1 y 3 del Metro de Caracas. Facultad de Ingeniería. Escuela de Ingeniería Eléctrica. Trabajo Especial de Grado para Optar al Título de Ingeniero Electricista. Tutor: Alexander Cepeda. Universidad Central de Venezuela. Caracas.
                 </p>
-                <p>
-                    Começamos fazendo um estudo metereológico. Usando Arduino e vários sensores, salvamos informações de velocidade, intensidade e direção do vento. Já com os dados do recurso e o requerimento diario de água das árvores, assim como a capacidade dos reservatorios, conseguimos fazer o design enteiro da rede, a turbina, os tanques de mistura e a bomba. A construção e o trabalho de campo para a montagem também foi feita pela equipe, assim como os manuais de manutenção.
-                </p>
+                
                 <nav>
-                    <a href="http://tangara.uis.edu.co/biblioweb/tesis/2014/151955.pdf" target="_blank" rel="noopener">TRABALHO COMPLETO</a>
+                    <a href="http://saber.ucv.ve/bitstream/10872/19979/1/Trabajo%20de%20Grado%202016.pdf" target="_blank" rel="noopener">Trabajo de Grado</a>
                 </nav>
                 </div>
             </div>  
@@ -248,48 +233,45 @@
 
         <section id="Meu_contacto">
             <section class="Contato1">
-                <h2>Fala Comigo!</h2>
+                <h2>Comunicate!</h2>
                 <p>
-                    Preencha o formulário e entrarei em contato o mais rápido possível. 
+                    Llene el formulario y le reponderé los más pronto posible. 
                 </p>
                 <p>
-                    Você também pode me encontrar nas seguintes redes sociais:
+                    Puede encontrame tambien en mis redes sociales :
                 </p>
                 <nav id="Redes-Sociais">
-                    <a href="https://www.facebook.com/DiegoCelisTorres" target="_blank" valor="noopener"><img src="Images/FB-Logo.png" alt="Logo de Facebook"></a>
-                    <a href="https://twitter.com/DiegoCelisT" target="_blank" valor="noopener"><img src="Images/twitter-logo.png" alt="Logo de Twitter"></a>
-                    <a href="https://www.instagram.com/diegocelist/" target="_blank" valor="noopener"><img src="Images/IG-Logo.png" alt="Logo de Instagram"></a>
+                    <a href="https://www.facebook.com/samuel.chacon.545/" target="_blank" valor="noopener"><img src="img/facebook-logo.webp" alt="Logo de Facebook"></a>
+                    <a href="https://twitter.com/sechafer" target="_blank" valor="noopener"><img src="img/twitter-logo-4.png" alt="Logo de Twitter"></a>
+                    <a href="https://www.instagram.com/sechafer2/" target="_blank" valor="noopener"><img src="img/instagram-logo.png" alt="Logo de Instagram"></a>
                 </nav>
                 <div>
-                    <img src="Images/Icone Telefone.png" alt="Icone de um telefone">
-                    <p>+55 (21) 97384 3404</p>
+                    <img src="img/Icone Telefone.png" alt="Icone de um telefone">
+                    <p>+55 (11) 933880101</p>
                 </div>
                 <div>
-                    <img src="Images/Icone email.jpg" alt="Icone de email">
-                    <p>diegofercelis@gmail.com</p>
+                    <img src="img/Icone email.jpg" alt="Icone de email">
+                    <p>sechafer@gmail.com</p>
                 </div>
-                <div>
-                    <img src="Images/Logo Wpp.png" alt="Icone com o logo de Whatsapp">
-                    <a href="https://wa.link/m7dey2" target="_blank" rel="noopener">Escreva-me pelo Whatsapp</a>
-                </div>
+                
             </section>
             <section class="Contato2">
             <form action="" method="POST">
                 <label>
-                    <p>Nome</p>
-                    <input type="text" name="Nome da pessoa" placeholder="Escreva nome e sobrenome" required>
+                    <p>Nombre</p>
+                    <input type="text" name="Nombre" placeholder="Escriba nombre y apellido" required>
                 </label>
                 <label>
-                    <p>Email</p>  
-                    <input type="text" name="Email do visitante" placeholder="nome@mail.com" required>
+                    <p>E-mail</p>  
+                    <input type="text" name="Email del visitante" placeholder="nome@mail.com" required>
                 </label>
                 <label>
-                    <p>Assunto</p>
-                    <input type="text" name="Assunto" placeholder="Assunto" required>
+                    <p>Asunto</p>
+                    <input type="text" name="Asunto" placeholder="Asunto" required>
                 </label>
                 <label>
-                    <p>Mensagem</p>
-                    <textarea name="mensagem de visitante" cols="35" rows= "25" placeholder="Fala comigo, me dê a sua opinião, ou me pergunte o que quiser" required>
+                    <p>Mensaje</p>
+                    <textarea name="mensaje del visitante" cols="35" rows= "25" placeholder="Escriba su opinion" required>
                     </textarea>
                 </label>
                 <button type="submit">Enviar</button>
@@ -301,12 +283,11 @@
     </main>
 
     <footer>
+        
         <div>
-            <img src="Images/Logo DCT Portfolio.png" alt="Logo DCT do Portfolio" width="50" height="50">
-        </div>
-        <div>
-            <p>Copyright © 2021 Todos os direitos reservados | <span>DiegoCelisT</span>
+            <p> <img  src="img/cc.svg" alt="Logo creative Commons " width="5" height="5"> Creative Commons   2021 | <span>SECHAFER</span>
             </p>
+            <p>&#xhhhh</p>
         </div>
     </footer>
 
