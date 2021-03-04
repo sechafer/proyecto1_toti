@@ -36,7 +36,7 @@ function validar() {
 
 //consulta con el servidor
 let consulta = new XMLHttpRequest()
-consulta.open('GET', 'https://api.github.com/users/kittys201/repos', true)
+consulta.open('GET', 'https://api.github.com/users/sechafer/repos', true)
 
 
 //generando json
