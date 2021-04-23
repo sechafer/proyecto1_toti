@@ -1057,7 +1057,7 @@ text-align: center;
 }
 
 #Repositorios a:hover{
-  background-color:blue;
+  background-color:rgba(0, 47, 255, 0.678);
   color: antiquewhite;
 }
 
